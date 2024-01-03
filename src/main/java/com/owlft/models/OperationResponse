@@ -1,0 +1,8 @@
+package main.java.com.owlft.models;
+
+public class OperationResponse {
+
+    boolean success;
+    Object response;
+    
+}
