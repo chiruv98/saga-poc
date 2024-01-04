@@ -4,10 +4,21 @@ import java.util.List;
 
 public class DistributedTransaction {
 
-    String id;
-    List<Operation> statements;
+    private String id;
+    public List<Operation> statements;
 
-    OperationResponse execute (Operation action) {};
-    OperationResponse compensation (Operation recovery) {};
+    public OperationResponse execute (String id) {};
+
+    public String getId() {
+        return id;
+    }
+
+    public List<Operation> getStatements() {
+        return statements;
+    }
+
+    public void setStatements(List<Operation> statements) {
+        this.statements = statements;
+    }
     
 }

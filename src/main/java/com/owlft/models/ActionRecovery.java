@@ -1,10 +1,10 @@
 package main.java.com.owlft.models;
 
-public class ActionRecovery {
+private class ActionRecovery {
 
-    String url;
-    Object headers;
-    Object params;
-    Object body;
-    
+    private String url;
+    private Object headers;
+    private Object params;
+    private Object body;
+
 }
