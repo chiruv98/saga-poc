@@ -7,8 +7,6 @@ public class DistributedTransaction {
     private String id;
     public List<Operation> statements;
 
-    public OperationResponse execute (String id) {};
-
     public String getId() {
         return id;
     }
